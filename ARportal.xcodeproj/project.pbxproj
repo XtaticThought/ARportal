@@ -11,11 +11,12 @@
 		FEC31E392B751EB0002BE4DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC31E382B751EB0002BE4DC /* SceneDelegate.swift */; };
 		FEC31E3B2B751EB0002BE4DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC31E3A2B751EB0002BE4DC /* ViewController.swift */; };
 		FEC31E3E2B751EB0002BE4DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC31E3C2B751EB0002BE4DC /* Main.storyboard */; };
-		FEC31E402B751EB1002BE4DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC31E3F2B751EB1002BE4DC /* Assets.xcassets */; };
+		FEC31E402B751EB1002BE4DC /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC31E3F2B751EB1002BE4DC /* Assets.scnassets */; };
 		FEC31E432B751EB1002BE4DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC31E412B751EB1002BE4DC /* LaunchScreen.storyboard */; };
 		FEC31E4E2B751EB1002BE4DC /* ARportalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC31E4D2B751EB1002BE4DC /* ARportalTests.swift */; };
 		FEC31E582B751EB1002BE4DC /* ARportalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC31E572B751EB1002BE4DC /* ARportalUITests.swift */; };
 		FEC31E5A2B751EB1002BE4DC /* ARportalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC31E592B751EB1002BE4DC /* ARportalUITestsLaunchTests.swift */; };
+		FEC31E692B76C452002BE4DC /* Portal.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC31E682B76C452002BE4DC /* Portal.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,7 @@
 		FEC31E382B751EB0002BE4DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FEC31E3A2B751EB0002BE4DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FEC31E3D2B751EB0002BE4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FEC31E3F2B751EB1002BE4DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEC31E3F2B751EB1002BE4DC /* Assets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Assets.scnassets; sourceTree = "<group>"; };
 		FEC31E422B751EB1002BE4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEC31E442B751EB1002BE4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEC31E492B751EB1002BE4DC /* ARportalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARportalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +50,7 @@
 		FEC31E532B751EB1002BE4DC /* ARportalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARportalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC31E572B751EB1002BE4DC /* ARportalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARportalUITests.swift; sourceTree = "<group>"; };
 		FEC31E592B751EB1002BE4DC /* ARportalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARportalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEC31E682B76C452002BE4DC /* Portal.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Portal.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +105,10 @@
 				FEC31E382B751EB0002BE4DC /* SceneDelegate.swift */,
 				FEC31E3A2B751EB0002BE4DC /* ViewController.swift */,
 				FEC31E3C2B751EB0002BE4DC /* Main.storyboard */,
-				FEC31E3F2B751EB1002BE4DC /* Assets.xcassets */,
+				FEC31E3F2B751EB1002BE4DC /* Assets.scnassets */,
 				FEC31E412B751EB1002BE4DC /* LaunchScreen.storyboard */,
 				FEC31E442B751EB1002BE4DC /* Info.plist */,
+				FEC31E682B76C452002BE4DC /* Portal.scnassets */,
 			);
 			path = ARportal;
 			sourceTree = "<group>";
@@ -231,8 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC31E692B76C452002BE4DC /* Portal.scnassets in Resources */,
 				FEC31E432B751EB1002BE4DC /* LaunchScreen.storyboard in Resources */,
-				FEC31E402B751EB1002BE4DC /* Assets.xcassets in Resources */,
+				FEC31E402B751EB1002BE4DC /* Assets.scnassets in Resources */,
 				FEC31E3E2B751EB0002BE4DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
